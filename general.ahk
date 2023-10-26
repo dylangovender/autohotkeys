@@ -48,3 +48,6 @@ $!s::
 	return
 }
 
+::imail::sendPass("email")
+
+::iwmail::sendPass("work_email")
