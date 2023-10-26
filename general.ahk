@@ -1,5 +1,6 @@
 ﻿#Requires AutoHotkey v2.0
 #SingleInstance force
+#include %A_ScriptDir%\cred_manager.ahk
 
 ;Win+C
 #/::
@@ -40,4 +41,10 @@ $!s::
 	return
 }
 
+;Pulls ID number from credential manager
+::iiid::
+{
+	sendPass("id")
+	return
+}
 
