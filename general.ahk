@@ -81,5 +81,23 @@ $!s::
 	return
 }
 
+::itick::
+{
+	sendPass("email")
+	Sleep(50)
+	Send("{tab}")
+	Sleep(50)
+	sendPass("ticktick_password")
+	Sleep(50)
+	Send("{enter}")
+	return
+}
 
+::isudo::sudo su - ubuntu
 
+#HotIf WinActive("ahk_exe warzone2100.exe", )
+w::up
+s::down
+a::left
+d::right
+#HotIf ;
