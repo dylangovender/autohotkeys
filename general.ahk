@@ -69,5 +69,17 @@ $!s::
 	return
 }
 
+::ilogin::
+{
+	sendPass("work_email")
+	Sleep(50)
+	Send("{enter}")
+	Sleep(2000)
+	sendPass("work_password")
+	Sleep(50)
+	Send("{enter}")
+	return
+}
+
 
 
