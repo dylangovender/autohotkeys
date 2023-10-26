@@ -2,7 +2,7 @@
 #SingleInstance force
 #include %A_ScriptDir%\cred_manager.ahk
 
-::awsuat:: aws-azure-login --profile uat
+::iawsuat::aws-azure-login --profile uat
 
 ;Win+C
 #/::
@@ -50,17 +50,20 @@ $!s::
 	return
 }
 
+;Pulls primary email from credential manager
 ::imail::
 {
 	sendPass("email")
 	return
 }
 
+;Pulls work email from credential manager
 ::iwmail::
 {
 	sendPass("work_email")
 }
 
+;Email signature
 ::ikr::
 {
 	Send("--")
@@ -95,6 +98,7 @@ $!s::
 	return
 }
 
+;Key remapping for warzone2100
 #HotIf WinActive("ahk_exe warzone2100.exe", )
 w::up
 s::down
