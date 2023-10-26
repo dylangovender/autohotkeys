@@ -48,6 +48,14 @@ $!s::
 	return
 }
 
-::imail::sendPass("email")
+::imail::
+{
+	sendPass("email")
+	return
+}
 
-::iwmail::sendPass("work_email")
+::iwmail::
+{
+	sendPass("work_email")
+}
+
