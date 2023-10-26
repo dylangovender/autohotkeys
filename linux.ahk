@@ -1,7 +1,7 @@
 ﻿#Requires AutoHotkey v2.0
 #SingleInstance force
 
-:isudo::sudo su - ubuntu
+::isudo::sudo su - ubuntu
 
 ::igrep::
 { 
