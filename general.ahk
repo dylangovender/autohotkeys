@@ -33,4 +33,11 @@ $!s::
 	return
 }
 
+;Win+J - Open Bluetooth settings window
+#J::
+{
+	Run("bthprops.cpl")
+	return
+}
+
 
