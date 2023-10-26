@@ -9,7 +9,7 @@
 	Send("^c")
     Sleep(100)
     Run(A_ClipBoard)
-return
+	return
 }
 
 ;Alt+C - For Microsoft Outlook - Open all emails with the same subject as the highlighted email
@@ -92,8 +92,6 @@ $!s::
 	Send("{enter}")
 	return
 }
-
-::isudo::sudo su - ubuntu
 
 #HotIf WinActive("ahk_exe warzone2100.exe", )
 w::up
