@@ -74,30 +74,6 @@ $!s::
 	return
 }
 
-::ilogin::
-{
-	sendPass("work_email")
-	Sleep(50)
-	Send("{enter}")
-	Sleep(2000)
-	sendPass("work_password")
-	Sleep(50)
-	Send("{enter}")
-	return
-}
-
-::itick::
-{
-	sendPass("email")
-	Sleep(50)
-	Send("{tab}")
-	Sleep(50)
-	sendPass("ticktick_password")
-	Sleep(50)
-	Send("{enter}")
-	return
-}
-
 ;Key remapping for warzone2100
 #HotIf WinActive("ahk_exe warzone2100.exe", )
 w::up
