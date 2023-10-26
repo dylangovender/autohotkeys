@@ -59,3 +59,15 @@ $!s::
 	sendPass("work_email")
 }
 
+::ikr::
+{
+	Send("--")
+	Send("{enter}")
+	Send("Kind Regards")
+	Send("{enter}")
+	Send("Dylan Govender")
+	return
+}
+
+
+
