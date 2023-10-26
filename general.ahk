@@ -2,6 +2,8 @@
 #SingleInstance force
 #include %A_ScriptDir%\cred_manager.ahk
 
+::awsuat:: aws-azure-login --profile uat
+
 ;Win+C
 #/::
 {
