@@ -27,4 +27,13 @@ counter := 0  ; Initialize the counter
 	return
 }
 
+; ctrl+shift+3 - Logging.info only
+^+3::
+{
+	Send("logging.info(`"`"`)")
+	Send("{Left 2}")
+	return
+}
+
+
 
