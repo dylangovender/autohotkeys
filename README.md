@@ -16,4 +16,8 @@ This was done to reduce the number of running AHK instances (which clog up the s
 4. debug_helper.ahk - Hotkeys used to debug quicker (handy when you don't have access to an actual debugger)
 5. linux.ahk - Short scripts specifically handy in a "Linux terminal"
 
+## Using credentials/secrets
 
+1. Details on how to use this are in cred_manager.ahk
+2. NewpassGui() can be used to add credentials to Windows Credential Manager
+3. sendPass() can be used to pull out those credentials into any AHK script
