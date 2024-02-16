@@ -44,7 +44,7 @@ $!s::
 }
 
 ;Pulls ID number from credential manager
-::iiid::
+^+!i::
 {
 	sendPass("id")
 	return
