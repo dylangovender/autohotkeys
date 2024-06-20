@@ -4,6 +4,14 @@
 
 ::iawsuat::aws-azure-login --profile uat
 
+;Ctrl+1
+^1::
+{
+	sendPass("pin")
+	return
+}
+
+
 ;Win+C
 #/::
 {

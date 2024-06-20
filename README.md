@@ -21,3 +21,7 @@ This was done to reduce the number of running AHK instances (which clog up the s
 1. Details on how to use this are in cred_manager.ahk
 2. NewpassGui() can be used to add credentials to Windows Credential Manager
 3. sendPass() can be used to pull out those credentials into any AHK script
+
+Add a new password (Ctrl + Alt + c)
+Remove a password (Ctrl + Alt + d)
+Fetch a password (Ctrl + Alt + r)
