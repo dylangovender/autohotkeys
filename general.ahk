@@ -3,6 +3,7 @@
 #include %A_ScriptDir%\cred_manager.ahk
 
 ::iawsuat::aws-azure-login --profile uat
+::iawsprod::aws-azure-login --profile prod
 
 ;Ctrl+1
 ^1::
