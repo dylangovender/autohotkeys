@@ -48,7 +48,9 @@ $!s::
 ;Win+J - Open Bluetooth settings window
 #J::
 {
-	Run("bthprops.cpl")
+	api_variable := "AHK_s8_api_key"
+	Run(A_ScriptDir "\bt_off.ahk " api_variable)
+	Run(A_ScriptDir "\wh1000xm4_connect.ahk")
 	return
 }
 
